@@ -38,19 +38,19 @@ const Index = () => {
       {/* Main content */}
       <main className="flex-1 flex items-center justify-center relative z-10">
         <div className="text-center">
-          {/* 3D Coming Soon Text */}
-          <div className="relative mb-8">
-            <h2 className="text-8xl md:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-300 select-none">
+          {/* 3D Coming Soon Text with hover animation */}
+          <div className="relative mb-8 group cursor-pointer">
+            <h2 className="text-8xl md:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-300 select-none transition-all duration-500 group-hover:scale-110 group-hover:bg-gradient-to-b group-hover:from-yellow-200 group-hover:to-yellow-400 group-hover:animate-pulse">
               COMING
             </h2>
-            <h2 className="text-8xl md:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-300 select-none -mt-4">
+            <h2 className="text-8xl md:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-300 select-none -mt-4 transition-all duration-500 group-hover:scale-110 group-hover:bg-gradient-to-b group-hover:from-yellow-200 group-hover:to-yellow-400 group-hover:animate-pulse">
               SOON!
             </h2>
-            {/* 3D Shadow effect */}
-            <div className="absolute inset-0 text-8xl md:text-9xl font-black text-gray-600 opacity-30 transform translate-x-2 translate-y-2 -z-10">
+            {/* 3D Shadow effect with animation */}
+            <div className="absolute inset-0 text-8xl md:text-9xl font-black text-gray-600 opacity-30 transform translate-x-2 translate-y-2 -z-10 transition-all duration-500 group-hover:translate-x-4 group-hover:translate-y-4 group-hover:text-yellow-600">
               COMING
             </div>
-            <div className="absolute inset-0 text-8xl md:text-9xl font-black text-gray-600 opacity-30 transform translate-x-2 translate-y-2 -z-10 -mt-4">
+            <div className="absolute inset-0 text-8xl md:text-9xl font-black text-gray-600 opacity-30 transform translate-x-2 translate-y-2 -z-10 -mt-4 transition-all duration-500 group-hover:translate-x-4 group-hover:translate-y-4 group-hover:text-yellow-600">
               SOON!
             </div>
           </div>
